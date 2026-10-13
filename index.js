@@ -17,8 +17,4 @@ function createLoginTracker(userInfo) {
     return loginAttempt;
   }
   module.exports = createLoginTracker;
-  const tracker = createLoginTracker({ username: "user1", password: "password123"});
-  console.log(tracker("wrongpassword"));
-  console.log(tracker("wrongpassword"));
-  console.log(tracker("wrongpassword"));
-  console.log(tracker("password123"));
+  
