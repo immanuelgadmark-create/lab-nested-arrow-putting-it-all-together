@@ -1,4 +1,4 @@
-const createLoginTracker(userInfo) {
+const createLoginTracker = (userInfo) => {
   let attemptCount = 0;
   const maxAttempts = 3;
   return (passwordAttempt) => {
